@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--jquery必须放在bootstrap前面-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<div id="vueroot">测试内容hhh
+    <a href="#" class="btn btn-primary">{{msg}}</a>
+
+</div>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:"#vueroot",
+        data:{msg:"点击我"}
+    });
+</script>
+
+</body>
+</html>
