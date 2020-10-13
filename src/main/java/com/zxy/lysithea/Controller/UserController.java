@@ -36,7 +36,7 @@ public class UserController {
     }
 
     /**
-     *
+     * 编辑用户信息
      * @param uid
      * @param model
      * @return
